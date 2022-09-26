@@ -1,0 +1,312 @@
+
+
+#dwonloadButton
+{
+    
+    position: absolute;
+    right: 25px;
+    border: 1px solid white;
+    width: auto;
+}
+#dwonloadButton:hover
+{
+    border: 1px  solid #239ce2;
+    background-color:whitesmoke;
+}
+
+
+#proficleImage {
+    height: 130px;
+    width: 130px;
+    float: left;
+    position: absolute;
+
+}
+
+#upperInfoRow {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    position: relative;
+    padding-bottom: 3%;
+}
+
+#NameTitle {
+    top: 30px;
+    position: absolute;
+    left: 180px;
+    width:250px;
+    word-wrap:break-word;
+}
+
+#summary {
+    text-align: left;
+    font-size: 11px;
+    color: black;
+    font-weight: 500;
+    position: absolute;
+    top: 180px;
+    margin-left:0;
+    width: 660px;
+    word-wrap:break-word;
+
+}
+
+#summary2
+{
+    text-align: left;
+    font-size: 11px;
+    color: black;
+    font-weight: 500;
+    position: absolute;
+    top: 180px;
+    margin-left:0;
+    width: 750px;
+    word-wrap:break-word;
+}
+
+
+#certificateDescription
+{
+    position: relative;
+    top: -10px;
+    font-size: 11px;
+    color: black;
+    font-weight: 500;
+    font-style: italic;
+    width:310px;
+    word-wrap:break-word;
+}
+
+#contactInfo {
+    top: 30px;
+    text-align: right;
+    position: absolute;
+    right: 20px;
+    font-weight: 600;
+    color: black;
+    font-size: 12px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#education {
+    float: left;
+    left: 0;
+    max-width: 305px;
+}
+
+#educationBorder,
+#workExperienceBorder {
+    border-bottom: 2px solid black;
+    width: 305px;
+}
+
+
+#secondhalf {
+    position: relative;
+    float: right;
+    right: 0;
+}
+
+#ResumePrint
+{
+    padding-right:1%;
+}
+
+
+
+#skillBorder {
+    border-bottom: 2px solid black;
+    width: 300px;
+}
+
+
+#resumeBody {
+    margin-left: 30px;
+    position: relative;
+    top: 200px;
+}
+
+#PrintBody
+{
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    top: 200px;
+}
+
+#date {
+    position: relative;
+    font-style: italic;
+    font-size: smaller;
+}
+
+#projectNameDate
+{
+    font-size: 13px;
+    font-weight: 800px;   
+    color: black;
+}
+
+#certificateNameDate
+{
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+}
+
+#degreename,
+#positionTitle {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+
+}
+
+.institutename {
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    max-width: 300px;
+}
+
+.companyName {
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.interval {
+    font-size: 1vw;
+    font-weight: 400;
+    color: black;
+}
+
+#grade {
+    position: absolute;
+    font-size: smaller;
+    font-style: italic;
+    right: 0;
+    text-align: right;
+}
+
+#educationContainer {
+    position: relative;
+}
+
+#workExperienceContainer {
+    position: relative;
+}
+
+
+.testing {
+    background-image: linear-gradient(#010000, #010000),
+        linear-gradient(#010000, #010000),
+        linear-gradient(#010000, #010000),
+        linear-gradient(#010000, #010000);
+
+    background-repeat: no-repeat;
+    background-size: 8px 2px;
+    background-position: top left, top right, bottom left, bottom right;
+
+    border: solid #010000;
+    border-width: 0 2px;
+}
+
+#courses,
+#acheivement {
+
+    position: relative;
+    top: -10px;
+    font-style: italic;
+    font-size: smaller;
+    padding-left: 10px
+}
+
+#projectDescription
+{
+    position: relative;
+    top: -7px;
+    font-style: italic;
+    font-size: smaller;
+    padding-left: -10px;
+    width:310px;
+    word-wrap:break-word;
+}
+
+#acheivement {
+    top: -19px;
+}
+
+#coursesContent,
+#acheivementContent {
+    display: table;
+    margin: 0 auto;
+}
+
+.bi-circle-fill {
+    margin-bottom: 2px;
+}
+
+#workExperience {
+    position: relative;
+    left: 0;
+    top: 2px;
+}
+
+
+
+
+
+#companydescription {
+    position: relative;
+    top: -10px;
+    font-size: 11px;
+    justify-content: left;    width:310px;
+    word-wrap:break-word;
+}
+
+#languagesComponent
+{
+background-color: rgb(149, 153, 158);
+color: white;
+border-radius: 5%;
+padding: 2%;
+text-align: center;
+}
+
+#languages
+{
+    justify-content: center;
+    text-align: left;
+    padding-top: 10px;
+    max-width: 300px;
+    overflow-wrap:break-word;
+}
+
+@page{size:auto; margin:5mm;}
+
+
+#previewHeading
+{
+    text-align: center;
+    border: 1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+    padding-top: 5px;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    color: black;
+}

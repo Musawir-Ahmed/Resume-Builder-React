@@ -1,0 +1,32 @@
+#headingBox
+{
+    box-shadow: 10px;
+font-weight: 300;
+padding: 2%;
+text-align: center;
+border: 1px solid black;
+
+}
+
+#headingButton
+{
+    background-color: white;
+    height:auto;
+    border: 1px solid black;
+    width: 170px;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+#addBodyButtonBox
+{
+    box-shadow: 10px;
+font-weight: 300;
+padding: 2%;
+text-align: center;
+}
+
+#headingButton:hover
+{
+    border: 1px  solid #239ce2;
+}

@@ -1,0 +1,91 @@
+#heading
+{
+    color:black;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    padding: 7%;
+}
+
+.highlight
+{
+    color: rgb(0, 153, 218);
+}
+
+#tagline
+{
+    color:rgb(243, 113, 18);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 1%;
+}
+
+#headingImage
+{
+height: 100%;
+    width: 100%;
+}
+
+#highlightWhite
+{
+    color: rgb(255, 153, 102);
+}
+
+#button
+{
+    background-color: rgb(243, 113, 18);
+    color: white;
+    border: none;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#buttonpanel
+{
+    text-align: center;
+}
+
+#backButton
+{
+    border: none;
+}
+#testing
+{
+    background-color: black;
+}
+
+#toolbar
+{
+padding-left: 3%;
+padding-right: 3%;
+}
+
+#boundryBorder
+{
+    padding-right: 1%;
+    border-right: 1px solid black;
+}
+
+
+
+#printForm
+{
+padding-bottom: 10%;
+}
+
+
+.container {
+    /* background-color: rgb(49, 59, 71); */
+    border: 1 px solid black;
+    min-width: 700px;
+    max-width: 700px;
+    position: -webkit-sticky;
+    /* Safari & IE */
+    position: relative;
+    top: 0;
+    z-index: 5;
+    page-break-inside: avoid;
+}

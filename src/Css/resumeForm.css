@@ -1,0 +1,42 @@
+.toolbar
+{
+box-shadow: 10px;
+font-weight: 300;
+padding: 7px;
+text-align: center;
+border: 1px solid black;
+margin-top: 5px;
+margin-left: 5px;
+}
+
+.toolbar:hover
+{
+    background-color: rgb(225, 231, 231);
+    cursor: pointer; 
+}
+
+
+
+#activeBar
+{
+    border-bottom: 1px  solid #239ce2;
+    color: #239ce2;
+}
+
+#formButton
+{
+    width: 200px;
+    height: auto;
+}
+
+#buttonRow
+{
+    margin-right:100px;
+}
+
+#ignorBox
+{
+visibility: hidden;}
+
+
+
